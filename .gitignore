@@ -1,0 +1,49 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# VS Code
+.vscode/
+
+# Conda / virtualenv
+env/
+venv/
+*.env
+*.conda
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data folders (raw/processed large files)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.sdf
+*.pdb
+
+# Experiment outputs (models, logs, checkpoints)
+experiments/**/checkpoints/
+experiments/**/logs/
+experiments/**/outputs/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+__pycache__/
+
+# Mac / Linux system files
+.DS_Store
+*.swp
+*.swo
+
+# Optional: large files
+*.h5
+*.pt
+*.ckpt
+*.pkl

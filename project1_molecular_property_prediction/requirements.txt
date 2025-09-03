@@ -1,0 +1,19 @@
+# Core scientific stack
+numpy>=1.25
+pandas>=2.1
+scipy>=1.12
+
+# Machine learning
+scikit-learn>=1.3
+torch>=2.2
+torchvision>=0.20
+
+# DeepChem for MoleculeNet / GNNs
+deepchem>=2.7
+
+# Chemistry / cheminformatics
+rdkit-pypi>=2023.9
+
+# Data visualization
+matplotlib>=3.8
+seaborn>=0.12
